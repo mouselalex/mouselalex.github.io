@@ -1,0 +1,61 @@
+/* Created by Alex Mousel for Activity 2 in 3900-850 */
+
+/* The Body */
+body {
+	background-color: grey;
+}
+
+/* The header */
+header {
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 300%;
+	background-color: #B3AFAF;
+}
+
+/* The Sections */
+section {
+	text-align: center;
+	background-color: #B3AFAF;
+	border-radius: 5px;
+}
+
+
+/* The Images */
+img {
+	text-align: center;
+	width: 50%;
+	height: 50%;
+	transition: width 2s, height 2s;
+	border-radius: 25px;
+}
+
+/* img hover */
+img:hover {
+	width: 60%;
+	height: 60%;
+}
+
+/* img position */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* The h1s */
+h1 {
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-stretch: expanded;
+}
+
+/* the aside bits */
+aside {
+	text-align: center;
+ 	font-style: italic;
+ 	background-color: lightgray;
+	border-radius: 5px;
+}
